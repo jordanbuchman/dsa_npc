@@ -53,6 +53,11 @@ body {
   font-family: 'ManifoldDSA', sans-serif;
 }
 
+a.disable {
+  pointer-events: none;
+  cursor: default;
+}
+
 .icons {
   display: flex;
   flex-direction: column;
@@ -81,13 +86,13 @@ nav a:hover {
 
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 600px) {
   .main {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 5vw !important;
+    margin-right: 5vw !important;
   }
   #logo {
-    width: 60vw;
+    width: 80vw;
   }
 }
 
